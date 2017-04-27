@@ -21,88 +21,71 @@ homepage="/intro/what-is-cloudify/"
     name = "docs"
     weight = -100
     [[menu.main]]
-        name = "3.3"
+        name = "3.4.2 (Latest GA)"
         parent = "docs"
-        weight = 0
-        url = "/installation/prerequisites"
+        weight = 9
+        url = "http://docs.getcloudify.org/3.4.2/"
+    [[menu.main]]
+        name = "3.4.1"
+        parent = "docs"
+        weight = 10
+        url = "http://docs.getcloudify.org/3.4.1/"
+    [[menu.main]]
+        name = "3.4.0"
+        parent = "docs"
+        weight = 11
+        url = "http://docs.getcloudify.org/3.4.0/"
+    [[menu.main]]
+        name = "4.0.0 (Early Access)"
+        parent = "docs"
+        weight = 12
+        url = "http://docs.getcloudify.org/4.0.0/"
+    [[menu.main]]
+        name = "3.3.1"
+        parent = "docs"
+        weight = 20
+        url = "http://docs.getcloudify.org/3.3.1/"
+    [[menu.main]]
+        name = "3.3.0"
+        parent = "docs"
+        weight = 30
+        url = "http://docs.getcloudify.org/3.3.0/"
     [[menu.main]]
         name = "3.2"
         parent = "docs"
-        weight = 1
-        url = "http://getcloudify.org/guide/3.2/quickstart.html"
-    [[menu.main]]
-        name = "3.1"
-        parent = "docs"
-        weight = 2
-        url = "http://getcloudify.org/guide/3.1/quickstart.html"
+        weight = 40
+        url = "http://getcloudify.org/guide/3.2/"
 
-[[menu.main]]
-    name = "product"
-    weight = -90
     [[menu.main]]
-        name = "download cloudify"
-        parent = "product"
-        weight = 0
-        url = "http://getcloudify.org/downloads/get_cloudify_3x.html"
-    [[menu.main]]
-        name = "about cloudify"
-        parent = "product"
-        weight = 1
-        url = "http://getcloudify.org/cloud_orchestration_cloud_automation.html"
-    [[menu.main]]
-        name = "how it works"
-        parent = "product"
-        weight = 2
-        url = "http://getcloudify.org/how-it-works.html"
-    [[menu.main]]
-        name = "cloudify roadmap"
-        parent = "product"
-        weight = 3
-        url = "http://getcloudify.org/cloudify-roadmap.html"
-    [[menu.main]]
-        name = "code examples"
-        parent = "product"
-        weight = 4
-        url = "http://getcloudify.org/examples/home.html"
-
-[[menu.main]]
-    name = "resources"
-    weight = -80
-    [[menu.main]]
-        name = "videos & tutorials"
-        parent = "resources"
-        weight = 0
+        name = "tutorials"
+        weight = -90
         url = "http://getcloudify.org/cloudifysourcetv.html"
+
     [[menu.main]]
-        name = "events"
+        name = "training"
+        weight = -80
+        url = "http://getcloudify.org/participate.htm"
+
+    [[menu.main]]
+        name = "resources"
+        weight = -70
+        
+    [[menu.main]]
+        name = "examples catalog"
+        parent = "resources"
+        weight = 0
+        url = "http://getcloudify.org/examples/home.html"
+    [[menu.main]]
+        name = "mailing list"
         parent = "resources"
         weight = 1
-        url = "http://getcloudify.org/participate.htm"
+        url = "https://groups.google.com/forum/#!forum/cloudify-users"
     [[menu.main]]
-        name = "cloudify tumblr"
+        name = "blog"
         parent = "resources"
         weight = 2
-        url = "http://cloudifysource.tumblr.com/"
-    [[menu.main]]
-        name = "faq"
-        parent = "resources"
-        weight = 3
-        url = "http://getcloudify.org/FAQ_cloud_devops_automation.html"
-    [[menu.main]]
-        name = "careers"
-        parent = "resources"
-        weight = 4
-        url = "http://jobs.gigaspaces.com"
-[[menu.main]]
-    name = "blog"
-    weight = -70
-    url = "http://getcloudify.org/blog"
-[[menu.main]]
-    name = ".com"
-    weight = -60
-    pre = "<strong>"
-    post = "</strong> <i class='fa fa-external-link-square'></i>"
-    url = "http://gigaspaces.com"
+        url = "http://getcloudify.org/blog/"
+
 
 # this is where you control the order of sections in docs
 # 'identifier' must match the section's directory name
@@ -110,66 +93,66 @@ homepage="/intro/what-is-cloudify/"
 # 'weight' sets the order of sections in docs (smaller is higher)
 [[menu.docs]]
     identifier = "intro"
-    name = "introduction"
+    name = "Introduction"
     url = "/intro/what-is-cloudify"
     weight = 0
 
 [[menu.docs]]
   identifier = "installation"
-  name = "installation"
+  name = "Installation"
   weight = 1
 
 [[menu.docs]]
-  identifier = "blueprints"
-  name = "blueprints"
+  identifier = "cli"
+  name = "Command Line Interface"
   weight = 2
 
 [[menu.docs]]
-  identifier = "cli"
-  name = "command line interface"
+  identifier = "blueprints"
+  name = "Blueprints"
   weight = 3
 
 [[menu.docs]]
   identifier = "plugins"
-  name = "plugins"
+  name = "Plugins"
   weight = 4
 
 [[menu.docs]]
   identifier = "workflows"
-  name = "workflows"
+  name = "Workflows"
   weight = 5
 
 [[menu.docs]]
   identifier = "manager"
-  name = "the cloudify manager"
+  name = "Cloudify Manager"
   weight = 6
 
 [[menu.docs]]
   identifier = "manager_architecture"
-  name = "manager architecture"
+  name = "Manager Architecture"
   weight = 7
 
 
 [[menu.docs]]
   identifier = "manager_webui"
-  name = "manager web interface"
+  name = "Manager Web Interface"
   weight = 8
 
 [[menu.docs]]
   identifier = "manager_policies"
-  name = "manager policies"
+  name = "Manager Policies"
   weight = 9
 
 
 [[menu.docs]]
   identifier = "agents"
-  name = "agents"
+  name = "Agents"
   weight = 10
 
 
 [[menu.docs]]
   identifier = "composer"
-  name = "blueprint composer"
+  name = "Blueprint Composer"
   weight = 11
 
 [[menu.docs]]
